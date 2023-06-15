@@ -1,0 +1,34 @@
+{
+  "name": "@solql/next",
+  "version": "0.0.4",
+  "description": "SolQL utility package for next.js web apps",
+  "main": "dist/index.js",
+  "bin": {
+    "artifacts": "./bin/bin.js"
+  },
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SolQL/next.git"
+  },
+  "keywords": [
+    "solql"
+  ],
+  "author": "sha256yan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SolQL/next/issues"
+  },
+  "homepage": "https://github.com/SolQL/next#readme",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "hardhat": "^2.14.1"
+  }
+}
